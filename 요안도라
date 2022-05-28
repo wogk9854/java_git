@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <style>
+        body{
+         background: linear-gradient(180deg, rgb(131, 207, 233), white) no-repeat;
+         background-size: auto 400px;
+        }
+         #contain{
+             width: 952px;
+             margin:0 auto;
+             border: 1px solid black;                                          
+         }
+         #head{
+             width: 952px;
+             height: 250px;
+             background: url(img/요안도라이미지.png) no-repeat ;
+             background-position: center;
+             background-size: 952px;
+             color: yellow;
+             font-size: 40px;
+             font-weight: bold;                              
+         }           
+         #menu{
+             width: 952px;
+             height: auto;
+             overflow: hidden;
+             text-align: center;                               
+         }          
+         #menu div{
+             list-style: none;
+             width: 238px;
+             height: 50px;
+             float: left;
+             background-color:  green;               
+             text-align: center;
+             line-height: 50px;
+             color: white;
+             font-weight: bold;                                                          
+         }       
+         
+         #main{
+             height: 430px;
+             overflow: hidden;
+             
+         }
+         #Introduction{
+             width: 690px;
+             height: 460px;
+             float: left;
+             margin: 20px;               
+         }
+         #Introduction h4{
+            font-size: 26px;
+            font-weight: bold;
+            line-height: 0px;
+         }
+         #Introduction p{
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 5px;
+         }
+         #Introduction div{
+             font-size: 15px;
+            color: gray;
+            line-height: 25px;
+         }
+         #picture{
+             width: 220px;
+             height: 350px;
+             text-align: center;
+             float: right;
+             background-color: rgb(212, 250, 202);
+             padding: 20px 0;
+             margin: 20px 0;                                
+         }
+         #address{
+             height: 70px;
+             background-color: black;
+             color: white;
+             text-align: center;
+             padding: 20px 0;                               
+         }
+         @media screen and (max-width: 1024px){
+             #contain{
+             width: 500px;
+             margin:0 auto;
+             border: 1px solid black;                
+             }
+             #head{
+                 width: 500px;
+                 height: 250px;
+                 background: url(./요안도라-이미지/bg.png) no-repeat local;
+                 background-position: center;
+                 background-size: 1000px;
+                 color: yellow;
+                 font-size: 40px;
+                 font-weight: bold;                                  
+             }           
+             #menu{
+                 width: 500px;
+                 height: auto;
+                 overflow: hidden;
+                 text-align: center;                                     
+             }                
+             #menu div{
+                 list-style: none;
+                 width: 125px;
+                 height: 50px;
+                 float: left;
+                 background-color:  green;                    
+                 text-align: center;
+                 line-height: 50px;
+                 color: white;
+                 font-weight: bold;                                                          
+             }       
+             
+             #main{
+                 height: 690px;                
+             }
+             #Introduction{
+                 width: 460px;
+                 height: 500px;
+                 float: left;
+                 margin: 20px;
+             }
+             #Introduction h4{
+             font-size: 26px;
+             font-weight: bold;
+             line-height: 0px;
+             }
+             #Introduction p{
+             font-size: 14px;
+             font-weight: 900;
+             line-height: 5px;
+             }
+             #Introduction div{
+                 font-size: 16px;
+             color: gray;
+             line-height: 25px;
+             }
+             #picture{
+                 width: 500px;
+                 height: 90px;
+                 text-align: center;                    
+                 background-color: rgb(212, 250, 202);                                                                           
+             }
+             #picture img{
+                 width: 150px;
+                 line-height: 90px;
+             }                           
+             #address{
+                 height: 70px;
+                 background-color: black;
+                 color: white;
+                 text-align: center;
+                 padding: 20px 0 ;
+                 font-size: 15px;                   
+             }
+         }
+         @media screen and (max-width: 600px){
+             *{
+                 margin: 0;
+             }
+             #contain{
+             width: 100%;
+             margin:0;
+             border: 0px;                                         
+             }
+             #head{
+                 width: 100%;
+                 height: 70px;
+                 background: black;
+                 background-size: 100%;
+                 color: yellow;
+                 font-size: 40px;
+                 font-weight: 900;
+                 text-align: center;
+                 line-height: 70px;             
+             }           
+             #menu{
+                 width: 100%;
+                 height: auto;
+                 overflow: hidden;
+                 text-align: center;                                    
+             }            
+             #menu div{
+                 list-style: none;
+                 width: 90%;
+                 height: 35px;
+                 float: none;                
+                 background-color:  white;                
+                 text-align: center;
+                 line-height: 37px;
+                 color: rgb(22, 22, 61);
+                 font-weight: bold;
+                 border: 1px solid gray;
+                 border-radius: 10px;
+                 margin: 8px auto;
+                 font-size: 12px;                                                                                         
+             }
+             #menu a{
+                 text-decoration: none;
+                 font-size: 14px;
+             }       
+             
+             #main{
+                 height: max-content;                            
+             }
+             #Introduction{
+                 width: 90%;
+                 height: 530px;               
+                 margin: 5% 20px 5% 20px;                
+             }
+             #Introduction h4{
+             font-size: 26px;
+             font-weight: bold;
+             line-height: 50px;
+             }
+             #Introduction p{
+             font-size: 16px;
+             font-weight: 900;
+             line-height: 30px;
+             }
+             #Introduction div{
+                 font-size: 16px;
+             color: gray;
+             line-height: 25px;
+             }
+             #picture{
+                 width: 100%;
+                 height: 20%;
+                 text-align: center;                
+                 padding: 20px 0;                
+                 background-color: rgb(212, 250, 202);                                                 
+             }
+             #picture img{
+                 width: 90%;
+                 line-height: 90px;
+             }                         
+             #address{
+                 height: 50px;
+                 background-color: black;
+                 color: white;
+                 text-align: center;
+                 margin: -20px 0 0 0 ;
+                 padding: 20px 0 0 0;
+                 font-size: 12px;                                
+             }
+         }
+     </style>
+
+</head>
+<body>
+    <div id="contain">
+        <div id="head">Joandora</div>
+        
+        <div id="menu">
+            
+            <a><div>이용안내</div></a>
+            <a><div>객실 소개</div></a>
+            <a><div>예약 방법</div></a>
+            <a><div>예약 하기</div></a>              
+        </div>
+        <div id="main">
+            <div id="Introduction">
+                <h4>요안도라 소개</h4>
+                <p> ¤ 요안도라는 게스트 하우스(Guest House) 형식의 농어촌 민박입니다</p>
+                <div>성산의 날씨는 다음주 내내 높은 구름에 햇살 가득이라고 합니다. 목요일이면 섭씨 27도까지 오른다고 하지만, 늘 부는 바람이 쾌적한 균형을 잡아 마당에 마당에 나가 앉아 있는 시간이 많아질듯 합니다.</div>
+                <br/>
+                <div>오늘은 사진에 보이는 긴 돌담을 따라 들어오는 요안도레 올레 입구에 특곤색의 대문을 달았습니다.</div>
+                <br/>
+                <div>내일은 두달 여동안 밖거리에 만든 게스트 하우스에 연백색의 황토 페인트를 칠할 예정입니다. 그리고 이것저것 사소한 정리를 마치고 나면, 나이 드시고 젊고 한 미지의 새식구들을 설렘으로 만나고 함께하고, 도시의 바쁜 생활로 소원해진 오래된 친구와의 우정을 이 제주에서 새롭게 열어나가기 위해 요안도라를 세상에 알리려고 합니다.</div>
+                <br/>
+                <div>그럼 이 홈페이지를 공식적으로 체계적으로 갖추면서, 그동안 공사로 어수선해 올려드리지 못한 집 안팎 사진들을 상세하게 올리고 당신을 만날 채비를 마치겠습니다.</div>
+            </div>
+            <div id="picture">
+                <img src="img/요안도라이미지1.jpg">
+                <img src="img/요안도라이미지2.jpg">
+                <img src="img/요안도라이미지3.jpg">
+            </div>       
+        </div>
+        <div id="address">
+            <p>제주특별자치도 남제주군 성산읍 수산리 000번지
+            <br/>Copyright ⓒ. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
