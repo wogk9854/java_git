@@ -50,23 +50,23 @@
              overflow: hidden;
              
          }
-         #Introduction{
+         #introduction{
              width: 690px;
              height: 460px;
              float: left;
              margin: 20px;               
          }
-         #Introduction h4{
+         #introduction h4{
             font-size: 26px;
             font-weight: bold;
             line-height: 0px;
          }
-         #Introduction p{
+         #introduction p{
             font-size: 16px;
             font-weight: bold;
             line-height: 5px;
          }
-         #Introduction div{
+         #introduction div{
              font-size: 15px;
             color: gray;
             line-height: 25px;
@@ -76,9 +76,8 @@
              height: 350px;
              text-align: center;
              float: right;
-             background-color: rgb(212, 250, 202);
              padding: 20px 0;
-             margin: 20px 0;                                
+             margin: 20px 0;                              
          }
          #address{
              height: 70px;
@@ -124,23 +123,23 @@
              #main{
                  height: 690px;                
              }
-             #Introduction{
+             #introduction{
                  width: 460px;
                  height: 500px;
                  float: left;
                  margin: 20px;
              }
-             #Introduction h4{
+             #introduction h4{
              font-size: 26px;
              font-weight: bold;
              line-height: 0px;
              }
-             #Introduction p{
+             #introduction p{
              font-size: 14px;
              font-weight: 900;
              line-height: 5px;
              }
-             #Introduction div{
+             #introduction div{
                  font-size: 16px;
              color: gray;
              line-height: 25px;
@@ -213,22 +212,22 @@
              #main{
                  height: max-content;                            
              }
-             #Introduction{
+             #introduction{
                  width: 90%;
                  height: 530px;               
                  margin: 5% 20px 5% 20px;                
              }
-             #Introduction h4{
+             #introduction h4{
              font-size: 26px;
              font-weight: bold;
              line-height: 50px;
              }
-             #Introduction p{
+             #introduction p{
              font-size: 16px;
              font-weight: 900;
              line-height: 30px;
              }
-             #Introduction div{
+             #introduction div{
                  font-size: 16px;
              color: gray;
              line-height: 25px;
@@ -269,7 +268,7 @@
             <a><div>예약 하기</div></a>              
         </div>
         <div id="main">
-            <div id="Introduction">
+            <div id="introduction">
                 <h4>요안도라 소개</h4>
                 <p> ¤ 요안도라는 게스트 하우스(Guest House) 형식의 농어촌 민박입니다</p>
                 <div>성산의 날씨는 다음주 내내 높은 구름에 햇살 가득이라고 합니다. 목요일이면 섭씨 27도까지 오른다고 하지만, 늘 부는 바람이 쾌적한 균형을 잡아 마당에 마당에 나가 앉아 있는 시간이 많아질듯 합니다.</div>
